@@ -1,0 +1,17 @@
+mutation userLogin {
+  userLogin(
+    email: "cecoj23434@pro5g.com"
+    password: "password"
+  ){
+    authenticatable{
+      email
+    }
+    credentials{
+      accessToken
+      client
+      expiry
+      tokenType
+      uid
+    }
+  }
+}
