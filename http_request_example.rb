@@ -23,3 +23,6 @@ query = <<~GQL
 
 response = HTTP.post(base_address, params: { query: query })
 p response.parse
+
+# Response
+# => {"data"=>{"userLogin"=>nil}, "errors"=>[{"message"=>"Invalid login credentials. Please try again.", "locations"=>[{"line"=>2, "column"=>3}], "path"=>["userLogin"], "extensions"=>{"code"=>"USER_ERROR"}}]}
