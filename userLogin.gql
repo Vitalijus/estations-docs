@@ -1,6 +1,6 @@
 mutation userLogin {
   userLogin(
-    email: "cecoj23434@pro5g.com"
+    email: "dev@estations.io"
     password: "password"
   ){
     authenticatable{
