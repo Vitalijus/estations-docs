@@ -1,0 +1,16 @@
+{
+  "data": {
+    "userLogin": {
+      "authenticatable": {
+        "email": "dev@estations.io"
+      },
+      "credentials": {
+        "accessToken": "OvZRVbA011HisJRjCAcNhA",
+        "client": "q6ZRz4ib0LlMZWT-KbTJJg",
+        "expiry": 1672763368,
+        "tokenType": "Bearer",
+        "uid": "dev@estations.io"
+      }
+    }
+  }
+}
