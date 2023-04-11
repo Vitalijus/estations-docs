@@ -23,4 +23,4 @@ login_mutation = <<~GQL
        GQL
 
 login_response = HTTP.post(base_address, params: { query: login_mutation })
-p login_response.parse["data"]["userLogin"]["credentials"]
+p login_response.parse
