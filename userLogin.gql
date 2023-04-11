@@ -18,7 +18,7 @@ mutation userLogin {
   }
 }
 
-# Response
+# Response with credentials details you would use in later requests to the eStations API.
 
 {
   "data": {
@@ -35,4 +35,29 @@ mutation userLogin {
       }
     }
   }
+}
+
+# If email address or password is incorrect you will receive error message.
+
+{
+  "data": {
+    "userLogin": null
+  },
+  "errors": [
+    {
+      "message": "Invalid login credentials. Please try again.",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "path": [
+        "userLogin"
+      ],
+      "extensions": {
+        "code": "USER_ERROR"
+      }
+    }
+  ]
 }
