@@ -1,0 +1,22 @@
+{
+  "data": {
+    "userLogin": null
+  },
+  "errors": [
+    {
+      "message": "Invalid login credentials. Please try again.",
+      "locations": [
+        {
+          "line": 2,
+          "column": 3
+        }
+      ],
+      "path": [
+        "userLogin"
+      ],
+      "extensions": {
+        "code": "USER_ERROR"
+      }
+    }
+  ]
+}
