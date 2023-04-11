@@ -1,0 +1,17 @@
+mutation userLogin {
+  userLogin(
+    email: "dev@estations.io" # estations.io account email address.
+    password: "password"      # estations.io account password.
+  ){
+    authenticatable{
+      email                   # email address that is being authenticated.
+    }
+    credentials{
+      accessToken             # access encoded token.
+      client                  # client encoded token.
+      expiry                  # valid for 1h.
+      tokenType               # authentication scheme.
+      uid                     # estations.io account email address.
+    }
+  }
+}
