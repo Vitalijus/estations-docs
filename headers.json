@@ -1,3 +1,4 @@
+# Add below credentials to the HTTP headers section in GraphQL Playground.
 {
   "access_token": "dqG0vqbTyfxHaHf0X9iwvQ",
   "client": "CuFHg9FAnuO9hb5CIqgMfg",
