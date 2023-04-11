@@ -1,4 +1,3 @@
-# Request
 mutation userLogin {
   userLogin(
     email: "dev@estations.io"
@@ -15,46 +14,4 @@ mutation userLogin {
       uid
     }
   }
-}
-
-# Response with credentials details you would use in later requests to the eStations API.
-{
-  "data": {
-    "userLogin": {
-      "authenticatable": {
-        "email": "dev@estations.io"
-      },
-      "credentials": {
-        "accessToken": "OvZRVbA011HisJRjCAcNhA",
-        "client": "q6ZRz4ib0LlMZWT-KbTJJg",
-        "expiry": 1672763368, # expires in 1h
-        "tokenType": "Bearer",
-        "uid": "dev@estations.io" # your account email address
-      }
-    }
-  }
-}
-
-# If email address or password is incorrect you will receive error message.
-{
-  "data": {
-    "userLogin": null
-  },
-  "errors": [
-    {
-      "message": "Invalid login credentials. Please try again.",
-      "locations": [
-        {
-          "line": 2,
-          "column": 3
-        }
-      ],
-      "path": [
-        "userLogin"
-      ],
-      "extensions": {
-        "code": "USER_ERROR"
-      }
-    }
-  ]
 }
