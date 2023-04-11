@@ -27,9 +27,9 @@ mutation userLogin {
       "credentials": {
         "accessToken": "OvZRVbA011HisJRjCAcNhA",
         "client": "q6ZRz4ib0LlMZWT-KbTJJg",
-        "expiry": 1672763368,
+        "expiry": 1672763368, # expires in 1h
         "tokenType": "Bearer",
-        "uid": "dev@estations.io"
+        "uid": "dev@estations.io" # your account email address
       }
     }
   }
