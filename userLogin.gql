@@ -1,5 +1,4 @@
 # Request
-
 mutation userLogin {
   userLogin(
     email: "dev@estations.io"
@@ -19,7 +18,6 @@ mutation userLogin {
 }
 
 # Response with credentials details you would use in later requests to the eStations API.
-
 {
   "data": {
     "userLogin": {
@@ -38,7 +36,6 @@ mutation userLogin {
 }
 
 # If email address or password is incorrect you will receive error message.
-
 {
   "data": {
     "userLogin": null
