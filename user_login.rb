@@ -1,7 +1,8 @@
 require "http"
 
 base_address = "https://www.estations.io/graphql"
-query = <<~GQL
+
+login_mutation = <<~GQL
        mutation userLogin {
          userLogin(
            email: "dev@estations.io"
@@ -21,5 +22,5 @@ query = <<~GQL
        }
        GQL
 
-response = HTTP.post(base_address, params: { query: query })
-p response.parse
+login_response = HTTP.post(base_address, params: { query: login_mutation })
+p login_response.parse["data"]["userLogin"]["credentials"]
