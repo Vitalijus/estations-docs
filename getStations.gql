@@ -2,8 +2,8 @@
 query getStations {
   getStations(
     filters: {
-    	latitude: 34.156839
-    	longitude: -118.434454
+      latitude: 34.156839
+      longitude: -118.434454
       distanceUnit: "mi"
       distanceRadius: 5
       plugTypes: ["CHAdeMO", "CCS"]
