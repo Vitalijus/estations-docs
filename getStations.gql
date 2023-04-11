@@ -1,4 +1,13 @@
-# Request
+# Add your account credentials you received using userLogin to the HTTP headers section in GraphQL Playground.
+{
+  "access_token": "dqG0vqbTyfxHaHf0X9iwvQ",
+  "client": "CuFHg9FAnuO9hb5CIqgMfg",
+  "expiry": "1672056475",
+  "token_type": "Bearer",
+  "uid": "dev@estations.io"
+}
+
+# Request to receive EV stations.
 query getStations {
   getStations(
     filters: {
