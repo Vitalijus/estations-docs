@@ -17,7 +17,7 @@ query getStations {
     }
   ){
     found
-   	stations{
+    stations{
       id
       access
       address
