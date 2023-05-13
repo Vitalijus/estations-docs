@@ -1,0 +1,27 @@
+{
+  "data": {
+    "getStations": {
+      "found": "1",
+      "stations": [
+        {
+          "id": "fad777b4-c7b4-4597-a17d-a31488fe03d4",
+          "access": "Public",
+          "distanceToStation": 0.93,
+          "distanceUnit": "km",
+          "latitude": 54.703475,
+          "longitude": 25.278444,
+          "connectors": [
+            {
+              "id": "e9a359ff-2864-4b84-80f9-39154cda93d0",
+              "price": 0.25,
+            },
+            {
+              "id": "297e3f46-a4d6-44b2-9616-9f22793560f0",
+              "price": 0.05,
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
