@@ -1,0 +1,9 @@
+{
+  "data": {
+    "userLogout": {
+      "authenticatable": {
+        "email": "dev@estations.io"
+      }
+    }
+  }
+}
